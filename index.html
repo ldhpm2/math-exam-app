@@ -2,23 +2,19 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>App Sinh Đề Toán</title>
+<title>App Sinh Đề Toán THPT</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<h1>App Sinh Đề Toán 12</h1>
 
-<button onclick="taoDe()">Tạo đề</button>
+<h1>📘 App Sinh Đề Toán THPT</h1>
 
-<p id="de"></p>
+<button onclick="taoDe()">Tạo đề mới</button>
 
-<script>
-function taoDe(){
-let a=Math.floor(Math.random()*10);
-let b=Math.floor(Math.random()*10);
-document.getElementById("de").innerHTML="Giải phương trình: "+a+"x + "+b+" = 0";
-}
-</script>
+<div id="exam"></div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
