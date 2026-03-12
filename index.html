@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>App Sinh Đề Toán</title>
+</head>
+
+<body>
+<h1>App Sinh Đề Toán 12</h1>
+
+<button onclick="taoDe()">Tạo đề</button>
+
+<p id="de"></p>
+
+<script>
+function taoDe(){
+let a=Math.floor(Math.random()*10);
+let b=Math.floor(Math.random()*10);
+document.getElementById("de").innerHTML="Giải phương trình: "+a+"x + "+b+" = 0";
+}
+</script>
+
+</body>
+</html>
